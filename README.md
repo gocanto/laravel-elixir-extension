@@ -1,4 +1,4 @@
-# gocanto-gulp
+## Setting up Gulp & FontAwesome
 
 
 This is just an example to compile fontawesome from bower components folder. 
