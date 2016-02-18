@@ -1,0 +1,25 @@
+{
+  "name": "gocanto",
+  "version": "0.0.1",
+  "description": "Gulp configurator to compile font awesome from bower components folder",
+  "authors": [
+    "Gustavo Ocanto <gustavoocanto@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "keys"
+  ],
+  "moduleType": [],
+  "homepage": "home",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "!themes/*"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
