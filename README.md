@@ -29,12 +29,14 @@ The only remaining step is to install Elixir! Within a fresh installation of Lar
 npm install
 ```
 
+<a href="https://laravel.com/docs/5.2/elixir" target="_blank">More info</a>
+
+
 
 ## Elixir Folder
 
 In this directory you will find the code required to accomplish this job, as an json file to control the configuration of your application.
 
-<a href="https://laravel.com/docs/5.2/elixir" target="_blank">More info</a>
 
 
 ## Heads Up
