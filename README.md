@@ -1,8 +1,7 @@
-## Setting up Gulp & FontAwesome
+## Elixir extension to copy bower components fonts into desired directory
 
 
-This is just an example to compile fontawesome from bower components folder. 
-
+This is just one of millions of approach to control CSS packages fonts in our projects. This example uses an elixir extension to complete this duty
 
 ## Bower 
 
@@ -14,28 +13,31 @@ After that process finishes, we have to install the required bower packages:
 bower install fontawesome --save
 ```
 
-## NPM
-
-Now we need to setup our gulp dependencies, which pull from NPM. Create a new package.json file and just add an empty object, {} and save it.
-
-Go back to the terminal and install our NPM dependencies:
-
-```
-npm install gulp gulp-notify gulp-bower --save-dev
-```
-
-This will install all the needed dependencies in a node_modules folder and also automatically update our package.json file with these dependencies.
-
-```package.json``` shows the versions of dependencies used
-
 ## Gulp
 
-Finally, we need to setup the ```gulpfile.js```. Create this file and we will step throughout all the settings.
+Next, you'll want to pull in Gulp as a global NPM package:
 
-If you had looked at gulp files before then you might know they all start by including the dependencies by using the node require function. 
+```
+npm install --global gulp
+```
 
-```gulpfile.js``` shows this process
+## Laravel Elixir
+
+The only remaining step is to install Elixir! Within a fresh installation of Laravel, you'll find a package.json file in the root. Think of this like your composer.json file, except it defines Node dependencies instead of PHP. You may install the dependencies it references by running:
+
+```
+npm install
+```
 
 
+## Elixir Folder
 
+In this directory you will find the code required to accomplish this job, as an json file to control the configuration of your application.
+
+<a href="https://laravel.com/docs/5.2/elixir" target="_blank">More info</a>
+
+
+## Heads Up
+
+If you want to run this example just run ```gulp``` in your terminal 
 
