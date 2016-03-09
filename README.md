@@ -1,4 +1,4 @@
-## Elixir extension to copy bower components fonts into desired directory
+## Laravel Elixir Extension to copy bower components fonts into desired directory
 
 
 This is just one of millions of approach to control CSS packages fonts in our projects. This example uses an elixir extension to complete this duty
